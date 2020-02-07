@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, .subtitle, .contact {
+  font-family: "Open Sans", sans-serif;
+}
+
+#logo {
+  width: 290px;
+  margin: 300px auto 20px auto;
+  padding: 10px;
+  border: 5px solid #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px, inset rgba(0, 0, 0, 0.2) 0 0 10px;
+}
+#logo h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+}
+
+.subtitle {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 26px;
+}
+
+.contact {
+  display: block;
+  font-size: 15px;
+}
+.contact a:hover {
+  color: #252b36;
+}
+
+.subtitle, .contact {
+  text-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+}
+
+.text-gold {
+  color: #FBC108 !important;
+}
+
+.btn-gold {
+  background-color: #FBC108;
+}
+
+.btn-gold:hover {
+  background-color: #ffcc06;
+  border-color: #ffcc06;
+}
+
+.bg-gold {
+  background-color: #FBC108;
+}
+
+body {
+  background: #e9ebee;
+}
+.bg-grey-light-minus {
+  background: #D1E1E9;
+}
+.bg-grey-light {
+  background: #A6BACC;
+}
+.bg-grey {
+  background: #7A96AB;
+}
+.bg-grey-dark {
+  background: #526F84;
+}
+.bg-grey-dark-plus {
+  background: #445766;
+}
+
+.text-green {
+  color: #00D1B2;
+}
+span.bg-green, .bg-green {
+  background-color: #00D1B2;
+}
+
+.btn-green {
+  color: #FFF;
+  background-color: #00D1B2;
+  border-color: #00D1B2;
+}
+.btn-green:hover {
+  color: #00D1B2;
+  background-color: #FFF;
+  border-color: #00D1B2;
+}
+
+.bg-red{
+  background-color: red; !important;
+}
+
+.bg-secondary-faded {
+  background-color: rgba(108,117,125,0.75);
+
+}
+
+.display-none{
+  display: none;
+}
+
+.field-error{
+  color:#fff;
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+}
